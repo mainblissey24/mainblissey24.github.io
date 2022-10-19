@@ -2,47 +2,45 @@
     margin: 0;
     padding: 0;
 }
-nav{
+nav {
     height: 50px;
-    background-color: bisque;
-    padding: 10px;
+    background-color: #484848;
+    color: #c8c8c8;
     display: flex;
     align-items: center;
     justify-content: end;
     list-style-type: none;
     overflow: hidden;
-    background-color: turquoise;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
-
 nav li{
-    padding: 10px;
+ padding: 10px;
 }
-
-a{
+a {
     text-decoration: none;
+    color: orange
 }
 
 a:hover{
-    text-decoration: none;
-    color: rebeccapurple;
+    color: #8961b5;
 }
-
 section{
-    min-width: none;
-    background-color: green;
-    color: yellow;
+    min-height: 480px;
+    background-color: #484848;
+    color:orange;
     padding: 10px;
+    border: 2px dotted #8961b5
 }
 
-section:hover{
-    background-color: brown;
-    color: navy;
+.comando-git{
+    padding: 5px;
+    font-size: 1.25rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
+    color: #484848;
 }
-
-
 p{
     padding: 5px;
 }
