@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 50px;
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: turquoise;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+section{
+    min-width: none;
+    background-color: green;
+    color: yellow;
+    padding: 10px;
+}
+
+section:hover{
+    background-color: brown;
+    color: navy;
+}
+
