@@ -1,73 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./assets/css/estilo.css" type="text/css" rel="stylesheet">
-        <title>Meu site Pessoal &cup;&hearts;&piv;&hearts;&cup;</title>
-    </head>
-    <body>
-        <nav>
-           <li><a href="#home"> Home &starf;</a></li>
-           <li><a>Projetos &diams;</a></li>
-           <li><a>Redes Sociais &clubs;</a></li>
-        </nav>
-        <div class="conteudo">
-            <section id="home">
-                <h1>O que é o git e o Github?</h1>
-                <div>
-                    <p>O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos outros sistemas 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/estilo.css" type="text/css" rel="stylesheet">
+    <title>Meu site Pessoal &cup;&hearts;&piv;&hearts;&cup;</title>
+</head>
+
+<body>
+    <nav>
+        <li><a href="#home"> Home &starf;</a></li>
+        <li><a>Projetos &diams;</a></li>
+        <li><a>Redes Sociais &clubs;</a></li>
+    </nav>
+    <div class="conteudo">
+        <section id="home">
+            <h1>O que é o git e o Github?</h1>
+            <div>
+                <p>O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando
+                    espaço dos outros sistemas
                     de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds,
-                     e ganhou o coração das pessoas que trabalham com open source.
-                    </p>
-                    <center><img src="assets/img/git.png" alt="git imagem"></center>
-                     <br>
-                     <br>
-                     <p>O Github tem sim muita relação com o Git. GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs,
-                      utilizando o Git como sistema de controle. Ele vai facilitar o uso do Git, escondendo alguns detalhes mais complicados de setup. 
-                     É lá que você provavelmente vai ter seu repositório e usar no dia a dia.
-                    </p>
-                    <center><img src="assets/img/github.jpg"></center>
-                </div>
+                    e ganhou o coração das pessoas que trabalham com open source.
+                </p>
+                <center><img src="assets/img/git.png" alt="git imagem"></center>
+                <br>
+                <br>
+                <p>O Github tem sim muita relação com o Git. GitHub é uma plataforma para gerenciar seu código e criar
+                    um ambiente de colaboração entre devs,
+                    utilizando o Git como sistema de controle. Ele vai facilitar o uso do Git, escondendo alguns
+                    detalhes mais complicados de setup.
+                    É lá que você provavelmente vai ter seu repositório e usar no dia a dia.
+                </p>
+                <center><img src="assets/img/github.jpg"></center>
+            </div>
 
-                <h2>Comandos do Git</h2>
-                <p>
-                    Vizualiza os arquivos que foram alterados
-                </p>
-                <p class="comando-git">
-                    git status
-                </p>
-               <p>
+            <h2>Comandos do Git</h2>
+            <p>
+                Vizualiza os arquivos que foram alterados
+            </p>
+            <p class="comando-git">
+                git status
+            </p>
+            <p>
                 Prepara um arquivo para ser versionado
-               </p>
-               <p class="comando-git">
+            </p>
+            <p class="comando-git">
                 git add nome_de_um_arquivo
-               </p>
-               <p class="comando-git">
+            </p>
+            <p class="comando-git">
                 Gera a versão das notificações
-               </p>
-               <p class="comando-git">
+            </p>
+            <p class="comando-git">
                 git comit -m "uma mensagem legal do que foi feito nos arquivos nesta versão"
-               </p>
-               <p class="comando-git">
+            </p>
+            <p class="comando-git">
                 Envia para o Github
-               </p>
-               <p class="comando-git">
+            </p>
+            <p class="comando-git">
                 git push origin main
-               </p>
-            </section>
+            </p>
+        </section>
 
 
-            <section id="projetos">
-                aqui vai ter os projetos &clubs;
-            </section>
-            <section id="redes_sociais">
-                aqui vai ter as redes Sociais &cup;&diams;&piv;&diams;&cup;
-            </section>
-        </div>
-        <footer>
-            Vai ter um Rodapé &starf;&star;&starf;&star;&starf;
-        </footer>
-    </body>
+        <section id="projetos">
+            <div class="projeto">
+                <img src="assets/img/carro.jfif">
+                <div>
+                    <p>Um resumo legal do projeto</p>
+                    <div class="labels">
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto">
+                <img src="assets/img/furret-pokemon-unscreen.gif">
+                <div>
+                    <p>Um resumo legal de um projeto</p>
+                    <div class="labels">
+                        <span>Javascript</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="redes_sociais">
+            aqui vai ter as redes Sociais &cup;&diams;&piv;&diams;&cup;
+        </section>
+    </div>
+    <footer>
+        Vai ter um Rodapé &starf;&star;&starf;&star;&starf;
+    </footer>
+</body>
+
 </html>

@@ -52,3 +52,26 @@ img{
     width: 150px;
     height: 100px;
 }
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projeto{
+    height: 300px;
+    width: 300px;
+    border: #8961b5 solid 5px;
+    margin: 10px;
+}
+.projeto>img{
+    width: 100%;
+}
+
+.labels span{
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 2px 5px;
+}
